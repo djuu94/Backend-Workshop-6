@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Users</title>
+</head>
+<body>
+    <h1>Users</h1>
+    <ul>
+        {{#each users}}
+            <li>
+                <h2>{{this.name}}</h2>
+                <p>{{this.email}}</p>
+            </li>
+        {{/each}}
+    </ul>
+</body>
+</html>
